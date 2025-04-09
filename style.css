@@ -79,11 +79,32 @@ html,body{
 }
 
 #homefooter{
+    padding: 0 2vw;
     display: flex;
+    position: absolute;
+    width:100%;
+    bottom: 3%;
     justify-content: space-between;
     align-items: center;
 }
 
 #homefooter a{
     color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#homefooter #iconset{
+    display: flex;
+    gap:5px;
+}
+
+#homefooter .circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
