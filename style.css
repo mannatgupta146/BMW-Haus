@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:"General Sans";
+    font-family:"General Sans Medium", sans-serif;
 }
 
 html,body{
@@ -16,9 +16,10 @@ html,body{
 }
 
 #home{
-    color:#fff;
-    width:100%;
-    height:100vh;
+    position: relative;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
     background-color: black;
 }
 
@@ -45,9 +46,8 @@ html,body{
     margin-left: 30px;
     opacity: .6;
     line-height: 1;
-    font-family: "General Sans";
+    font-family: "General Sans Medium", sans-serif;
     text-transform: uppercase;
-    font-weight: 900;
     font-size: 10vw;
 }
 
