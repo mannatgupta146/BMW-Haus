@@ -11,8 +11,8 @@ html,body{
 }
 
 #main{
-   
-    width:100;
+    width: 100%;
+    background-color: black;
 }
 
 #home{
@@ -25,9 +25,9 @@ html,body{
 
 #nav{
     display: flex;
-    color:white;
+    color:#fff;
     width: 100%;
-    padding: 20px 40px;
+    padding: 30px 40px;
     justify-content: space-between;
     align-items: center;
 }
@@ -39,18 +39,51 @@ html,body{
 }
 
 #heading{
-    margin-top: 90px;
+    margin-top: 40px;
 }
 
 #heading h1{
     margin-left: 30px;
     opacity: .6;
-    line-height: 1;
-    font-family: "General Sans Medium", sans-serif;
+    line-height: .9;
+    font-family: "General Sans", sans-serif;
     text-transform: uppercase;
     font-size: 10vw;
+    font-weight:500;
 }
 
 #heading #hero{
     margin-left: 230px;
+}
+
+.blocktext{
+    width:fit-content
+}
+
+.blocktext h5{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: right;
+}
+
+#smallheading{
+    margin-top: 100px;
+    padding-right: 50px;
+}
+
+#smallheading h5{
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 1vw;
+    text-align: right;
+}
+
+#homefooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#homefooter a{
+    color:white;
 }
