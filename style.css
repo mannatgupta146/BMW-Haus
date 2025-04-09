@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"General Sans";
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+#main{
+   
+    width:100;
+}
+
+#home{
+    color:#fff;
+    width:100%;
+    height:100vh;
+    background-color: black;
+}
+
+#nav{
+    display: flex;
+    color:white;
+    width: 100%;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#fff;
+}
+
+#heading{
+    margin-top: 90px;
+}
+
+#heading h1{
+    margin-left: 30px;
+    opacity: .6;
+    line-height: 1;
+    font-family: "General Sans";
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 10vw;
+}
+
+#heading #hero{
+    margin-left: 230px;
+}
