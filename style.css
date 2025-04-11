@@ -125,6 +125,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .element h1{
@@ -133,6 +134,17 @@ html,body{
     opacity: .7;
 }
 
+.element h5{
+    font-size: 1.5vw;
+}
+
 .elemlast{
     border-bottom: 1px solid #888
+}
+
+.element img{
+    display:none;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
 }
