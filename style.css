@@ -148,3 +148,41 @@ html,body{
     position: absolute;
     z-index: 999;
 }
+
+#about{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 10vw 10vw 10vw 40vw;
+}
+
+#textabout{
+    width: 30rem;
+}
+
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .5;
+    margin-bottom: 10px;
+}
+
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+#textabout a{
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: 12px;
+    font-size: 12px;
+}
+
+#about img{
+    width:300px;
+}
