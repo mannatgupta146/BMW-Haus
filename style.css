@@ -10,6 +10,25 @@ html,body{
     height:100%;
 }
 
+#circlepointer{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 99999;
+    border-radius: 50%;
+}
+
+.bounding {
+    width: fit-content;
+    overflow: hidden;
+}
+
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
+
 #main{
     width: 100%;
     background-color: black;
@@ -57,16 +76,23 @@ html,body{
 }
 
 .blocktext{
-    width:fit-content
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
 }
 
 .blocktext h5{
     text-transform: uppercase;
     font-size: 15px;
-    text-align: right;
+    text-align: right !important;
 }
 
 #smallheading{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     margin-top: 100px;
     padding-right: 50px;
 }
