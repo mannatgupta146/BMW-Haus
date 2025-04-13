@@ -204,3 +204,31 @@ html,body{
     font-size: 14px;
     margin-top: 10px;
 }
+
+#footer{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#footerleft{
+    display: flex;
+    gap: 20px;
+}
+
+#footerright{
+    display: flex;
+    gap: 30px;
+}
+
