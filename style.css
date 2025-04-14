@@ -169,10 +169,12 @@ html,body{
 }
 
 .element img{
-    display:none;
-    height: 100%;
-    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
     z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 #about{
@@ -205,7 +207,7 @@ html,body{
     border: 1px solid #fff;
     border-radius: 100px;
     color: #fff;
-    text-decoration: 12px;
+    text-decoration: none;
     font-size: 12px;
 }
 
