@@ -101,11 +101,9 @@ function updateFooter() {
   const options = { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit', hour12: true };
   const timeIST = now.toLocaleTimeString('en-US', options);
 
-  // Update DOM
   document.getElementById("year").innerHTML = `${new Date().getFullYear()} &copy;`;
   document.getElementById("time").innerHTML = `${timeIST} IST`;
 }
 
-// Update every minute
 updateFooter();
 setInterval(updateFooter, 60000);
