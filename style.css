@@ -260,3 +260,7 @@ html,body{
     gap: 30px;
 }
 
+a:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
