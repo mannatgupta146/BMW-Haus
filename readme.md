@@ -2,7 +2,6 @@
 
 This project presents a simple and elegant webpage dedicated to the BMW M-Series. Built using basic HTML, it provides a clean layout featuring descriptive content and an image of a BMW M-Series car.
 
----
 
 ## Project Overview
 
@@ -12,7 +11,6 @@ A beginner-friendly HTML webpage that includes:
 - An image showcasing the M-Series
 - Clean layout using basic inline CSS
 
----
 
 ## Features
 
@@ -21,14 +19,12 @@ A beginner-friendly HTML webpage that includes:
 - Inline styling for simplicity
 - Compatible with all modern browsers
 
----
 
 ## Technologies Used
 
 - HTML5
 - Inline CSS
 
----
 
 ## How to Use
 
@@ -36,7 +32,6 @@ A beginner-friendly HTML webpage that includes:
 2. Open the `index.html` file in any web browser.
 3. Explore the layout and content of the webpage.
 
----
 
 ## Learning Outcomes
 
@@ -45,15 +40,6 @@ A beginner-friendly HTML webpage that includes:
 - Structuring content semantically
 - Understanding simple webpage design principles
 
----
-
-## Screenshot
-
-*(Insert a screenshot of your webpage here if available)*  
-`Example:`  
-![BMW M-Series](./screenshot.png)
-
----
 
 ## Future Enhancements
 
@@ -63,14 +49,3 @@ A beginner-friendly HTML webpage that includes:
 - Improve responsiveness using media queries
 
 ---
-
-## License
-
-This project is open-source and available under the MIT License.
-
----
-
-## Acknowledgements
-
-- BMW Official Website (used as a source of inspiration and images)
-- MDN Web Docs for HTML and CSS references
